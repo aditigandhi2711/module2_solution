@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE-edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>mod2_solution</title>
+	<style>
+		*{
+			box-sizing: border-box;
+			background-color: #E0FFFF;
+			font-family: Arial, Helvetica, sans-serif;
+		}
+		h1{
+			font-style: italic;
+			font-size: 40px;
+			text-align: center;
+		}
+		p{
+		   padding: 10px;
+		   margin-right: auto;
+		   margin-left: auto;
+		   text-align: center; 	
+		   overflow: auto;
+		  
+		}
+		#p1{
+			background-color: #20B2AA;
+			width: 80%;
+			margin-top: 10px;
+            color: black;
+            font-size: 19px;
+		}
+        #p2{
+        	background-color: #8FBC8B;
+        	margin-bottom: 0px;
+			width: 50%;
+			font-size: 30px;	
+        }
+		/** destop screen **/
+		@media(min-width: 992px){
+			.col-md-4{
+				float: left; 
+		}
+		.col-md-4{
+			width:33.33%;
+        }
+		}
+		/** tablet screen **/
+		@media(min-width: 768px) and (max-width: 991px){
+			.col-sm-6, .col-sm-12 {
+				float: left; 
+				
+			}
+			.col-sm-6{
+				width: 50%
+			}
+			.col-sm-12{
+				width: 100%
+			}
+		}
+
+	</style>
+</head>
+<body>
+	<h1>Types of Coffee Drinks</h1>
+	<div class="container-fluid">
+	    <div class="row">
+			<div class="col-md-4 col-sm-6">
+				<p id="p2">Black</p>
+				<p id="p1">Black coffee is as simple as it gets with ground coffee beans steeped in hot water, served warm. And if you want to sound fancy, you can call black coffee by its proper name: cafe noir.</p></div>
+			<div class="col-md-4 col-sm-6">
+				<p id="p2">Latte</p>
+				<p id="p1">As the most popular coffee drink out there, the latte is comprised of a shot of espresso and steamed milk with just a touch of foam. It can be ordered plain or with a flavor shot of anything from vanilla to pumpkin spice.</p></div>
+			<div class="col-md-4 col-sm-12">
+				<p id="p2">Cappuccino</p>
+				<p id="p1">Cappuccino is a latte made with more foam than steamed milk, often with a sprinkle of cocoa powder or cinnamon on top. Sometimes you can find variations that use cream instead of milk or ones that throw in flavor shot, as well.</p></div>
+		</div>
+	</div>
+</body>
+</html>
