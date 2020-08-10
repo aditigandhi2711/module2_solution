@@ -7,7 +7,7 @@
 	<title>mod2_solution</title>
 	<link rel="stylesheet" type="text/css" href="style2.css">
 	<style>
-	    	*{
+	    *{
 			box-sizing: border-box;
 			background-color: #E0FFFF;
 			font-family: Arial, Helvetica, sans-serif;
@@ -18,30 +18,34 @@
 			text-align: center;
 		}
 		p{
-		   padding: 10px;
-		   margin-right: auto;
-		   margin-left: auto;
 		   text-align: center; 	
 		   overflow: auto;
-		  
+		   border: 1px solid black;
 		}
 		#p1{
+			margin-right: auto;
+		   margin-left: auto;
+			padding: 10px;
 			background-color: #20B2AA;
 			width: 80%;
-			margin-top: 10px;
+			margin-top: 0px;
             color: black;
             font-size: 19px;
 		}
         #p2{
+        	margin-right: 45px;
         	background-color: #8FBC8B;
+        	padding: 0px;
         	margin-bottom: 0px;
-			width: 50%;
-			font-size: 30px;	
+			width: 40%;
+			font-size: 30px;
+			float: right;	
         }
 		/** destop screen **/
 		@media(min-width: 992px){
 			.col-md-4{
-				float: left; 
+				float: left;
+				height: 50%; 
 		}
 		.col-md-4{
 			width:33.33%;
@@ -60,7 +64,6 @@
 				width: 100%
 			}
 		}
-
 	</style>
 </head>
 <body>
